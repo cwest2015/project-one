@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <!--
+            Project: Turing Bio Site
+            Author: Caleb West
+            Version: 2/16/2016
+            Filename:  links.html
+            Associated Files: index.html, machine.html, project2.html, turing_scripts.js, main.css, header.css
+            Purpose: This page has links to various websites related to the topic of the website
+            References:
+                Gube, J. (n.d.). How to create a fixed navigation bar. Retrieved from http://sixrevisions.com/css/fixed-navigation-bar/
+                Unknown Author in Public Domain. (1927). Alan Turing Aged 16 [photo]. Retrieved from 	              
+                    https://en.wikipedia.org/wiki/Alan_Turing#/media/File:Alan_Turing_Aged_16.jpg
+                W3Schools. (2016). How TO - Clickable Dropdown. Retrieved from http://www.w3schools.com/howto/howto_js_dropdown.asp
+        -->
+        <title>Other Links</title>
+        <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="description" content="Alan Turing related links">
+		<meta name="author" content="Caleb West">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/header.css">
+        <script src="./js/turing_scripts.js"></script>
+	</head>
+    <body>
+        <header>
+            <nav id="navBarFixed">
+                <div class="navBarMenu">
+                    <ul class="navBarBlock">
+                        <li><a href="./index.html">The Alan Turing Portal</a></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li><a href="http://www.biography.com/people/alan-turing-9512017">Bio</a></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li>
+                            <div class="drpdwn">   
+                                <a href="#" onclick="drpDwnMenu()" class="btn">Works</a>
+                                <div id="dropdown" class="content">
+                                    <a href="http://plato.stanford.edu/entries/turing/#BuiUniMac">Building a Universal Machine</a>
+                                    <a href="http://plato.stanford.edu/entries/turing/#MacInt">Machine Intelligence</a>
+                                    <a href="http://turingarchive.org/browse.php/B/9">The Psychology of Machines</a>
+                                    <a href="http://turingarchive.org/browse.php/B/25">Turing's Electronic Computer</a>
+                                    <a href="http://www.imdb.com/title/tt2084970/">The Film</a>
+                                </div>
+                            </div><!--(W3Schools, 2016) -->
+                        </li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li><a href="./links.html">Other Links</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section>
+            <article>
+                <div id="TuringPhoto">
+                     <img src="./resources/img/Alan_Turing_Aged_16.jpg" alt="Young Turing Photo" /><!--(Unknown Author, 1927)-->
+                     <p>https://en.wikipedia.org/wiki/Alan_Turing#/media/File:Alan_Turing_Aged_16.jpg<br/>(Unknown Author, 1927)</p>
+                </div>
+            </article>
+            <article>
+                <h1>Relevant Turing-related Links</h1>
+                <ul id="listLinks">
+                    <li><a href="http://www.turing.org.uk/index.html">Alan Turing Biography</a></li>
+                    <li><a href="http://www.turing.org.uk/sources/archive.html">Turing Archives</a></li>
+                    <li><a href="https://royalsociety.org/events/2012/alan-turing/">The Royal Society - Alan Turing Lecture</a></li>
+                    <li><a href="https://turing.ac.uk/">The Alan Turing Institute</a></li>
+                    <li><a href="https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/turing-machine/one.html">The University of Cambridge -                                 The Turing Machine</a></li>
+                </ul>
+            </article>
+        </section>
+        <footer>
+            <p>2016 - Caleb West | For a list of source -> 
+                <a href="./resources/References.pdf">References</a></p>
+        </footer>
+    </body>
+</html>
