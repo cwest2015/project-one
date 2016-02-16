@@ -1,0 +1,148 @@
+/*
+References
+Gube, J. (n.d.). How to create a fixed navigation bar. Retrieved from http://sixrevisions.com/css/fixed-navigation-bar/
+*/
+
+header h1 /*(Gube, n.d.)*/
+{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Bernard MT Condensed"; 
+    color: #990000;
+    font-size: 50px;
+}
+
+#navBarFixed
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    color: #000000;
+    height: 70px;
+    
+    background-color:#990000;
+    -webkit-box-shadow: 0px 0px 8px 0px #000000;
+    -moz-box-shadow: 0px 0px 8px 0px #000000;
+    box-shadow: 0px 0px 8px 0px #000000;
+}
+
+#dividerBarDiv
+{
+    position: fixed;
+    z-index: 10000;
+    background-color: white;
+    width: 1px;
+    height: 70px;
+    top: 0;
+    left: 30%;
+    
+}
+
+.navBarBlock
+{
+    display: inline-block;  
+    margin: 0 auto;
+}
+
+.navBarBlock a
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navBarBlock a:hover
+{
+    color: #ffffff;
+}   
+
+.navBarBlock a:visited
+{
+    color: #ffffff;
+}
+
+.navBarMenu
+{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navBarBlock li
+{
+    display: inline-block;
+    color: #ffffff;
+    font-family: "Bernard MT Condensed";
+    font-size: 35px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+
+    height: 40px;
+}
+
+/*Drop Down Menu CSS*/
+
+/*code based on W3C tutorial -> (W3Schools, 2016) @ http://www.w3schools.com/howto/howto_js_dropdown.asp*/
+
+li .drpdwn a .btn
+{
+    background-color: #990000;
+    color: #ffffff;
+    font-family: "Bernard MT Condensed";
+    font-size: 35px;
+    margin: 5px;
+    padding: 5px;
+    vertical-align: middle;
+    
+}
+
+li .drpdwn a .btn:hover, li .drpdwn a .btn:focus
+{
+    background-color: #990000;
+    color: #ffffff;
+}
+
+.drpdwn
+{
+    position: relative;
+    display: inline-block;
+}
+
+.content
+{
+    display: none;
+    position: absolute;
+    background-color: #990000;
+    min-width: 300px;
+    -webkit-box-shadow: 0px 0px 8px 0px #000000;
+    -moz-box-shadow: 0px 0px 8px 0px #000000;
+    box-shadow: 0px 0px 8px 0px #000000;
+    
+}
+
+.content a 
+{
+    color: #ffffff;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+}
+
+.content a:hover
+{
+    color: #ffffff;
+}   
+
+.content a:visited
+{
+    color: #ffffff;
+}
+
+.show
+{
+    display: block;
+}
