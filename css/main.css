@@ -1,0 +1,98 @@
+body
+{
+    background-color: #ffffcc;
+}
+
+section article img
+{
+    position: fixed;
+    left: 500px;
+    top: 100px;
+
+    width:400px;
+    height: 400px;
+} 
+
+section article #citationHome
+{
+    position: fixed;
+    top: 490px;
+    left: 500px;
+    
+}
+
+section article p a
+{
+    position: fixed;
+    top: 550px;
+    left: 550px;
+    color: #990000;
+    font-style: italic;
+    font-size: 25px;
+}
+
+section article a:visited
+{
+    color: #990000;
+}
+
+section article a:hover
+{
+    color: #990000;
+}
+
+section article h1
+{
+    position: fixed;
+    top: 90px;
+    left: 500px;
+    font-family: "Bernard MT Condensed";
+    color: #990000;
+    font-size: 50px;
+}
+
+section article h2
+{
+    position: fixed;
+    top: 180px;
+    left: 35%;
+    font-family: "Bernard MT Condensed";
+    color: dimgray;
+    font-style: italic;
+}
+
+
+section article #TuringPhoto img, section article #TuringPhoto p
+{
+    position: fixed;
+    top: 90px;
+    left: 1%;
+}
+
+section article #TuringPhoto p
+{
+    position: fixed;
+    top: 475px;
+    left: 1%;
+}
+
+section article #listLinks 
+{
+    position: fixed;
+    top: 250px;  
+    left: 550px;
+    list-style-type: none;
+}
+
+section article #listLinks a
+{
+    color: #990000; 
+    font-size: 25px;
+}
+
+footer
+{
+    position: fixed;
+    top: 600px;
+    left: 550px;
+}
