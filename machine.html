@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <!--
+            Project: Turing Bio Site
+            Author: Caleb West
+            Version: 2/16/2016
+            Filename:  machine.html
+            Associated Files: index.html, links.html, project2.html, turing_scripts.js, main.css, header.css, machine.css
+            Purpose: This page serves as a "dummy value" and will be completed in Project 2
+            References:
+                Gube, J. (n.d.). How to create a fixed navigation bar. Retrieved from http://sixrevisions.com/css/fixed-navigation-bar/
+                W3Schools. (2016). How TO - Clickable Dropdown. Retrieved from http://www.w3schools.com/howto/howto_js_dropdown.asp
+        -->
+        <title>The Turing Machine</title>
+        <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="description" content="Alan Turing's Machine">
+		<meta name="author" content="Caleb West">
+        <link rel="stylesheet" href="./machine/css/machine.css" />
+        <link rel="stylesheet" href="./css/header.css" />
+        <script src="./js/turing_scripts.js"></script>
+	</head>
+    <body>
+        <header>
+           <nav id="navBarFixed">
+                <div class="navBarMenu">
+                    <ul class="navBarBlock">
+                        <li><a href="./index/">The Alan Turing Portal</a></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li><a href="http://www.biography.com/people/alan-turing-9512017">Bio</a></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li>
+                            <div class="drpdwn">   
+                                <a href="#" onclick="drpDwnMenu()" class="btn">Works</a>
+                                <div id="dropdown" class="content">
+                                    <a href="http://plato.stanford.edu/entries/turing/#BuiUniMac">Building a Universal Machine</a>
+                                    <a href="http://plato.stanford.edu/entries/turing/#MacInt">Machine Intelligence</a>
+                                    <a href="http://turingarchive.org/browse.php/B/9">The Psychology of Machines</a>
+                                    <a href="http://turingarchive.org/browse.php/B/25">Turing's Electronic Computer</a>
+                                    <a href="http://www.imdb.com/title/tt2084970/">The Film</a>
+                                </div>
+                            </div><!--(W3Schools, 2016) -->
+                        </li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li><a href="./links.html">Other Links</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section>
+            <article>
+                <h1>The Turing Machine</h1>
+                <h2>A virtual working model<br /> demonstrating Alan Turing's theories <br />about universal computation</h2>
+            </article>
+        </section>
+        <section>
+            <article>
+                <div id="logIn">
+                    <form>
+                        <span>LOG IN:</span><br /><br />
+                        <span>Username:</span><br />
+                        <input type="text" /><br />
+                        <span>Password:</span><br />
+                        <input type="text" /><br />
+                        <input type="submit" />
+                    </form>
+                </div>
+                <div id="registration">
+                    <a href="./project2.html">New to the Turing Machine? Register here</a>
+                </div>
+            </article>
+        </section>
+        <footer>
+            <p>2016 - Caleb West | For a list of source -> 
+                <a href="./resources/References.pdf">References</a>
+            </p>
+        </footer>
+    </body>
+</html>
