@@ -25,12 +25,6 @@ window.onclick = function(event)
        }
 }
 
-window.onload = function(event)
-{
-    document.alert("This is a website created for Project 1 for WEBD 445 at 
-                        Franklin University, Computing Sciences Dept. by Caleb West");
-}
-
 /*
     References
     
